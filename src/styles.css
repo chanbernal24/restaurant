@@ -67,7 +67,7 @@ nav {
     grid-template-rows: 1fr;
     gap: 2.25rem;
     /* border: 1px solid white; */
-    visibility: hidden;
+    /* visibility: hidden; */
 
 }
 
@@ -107,3 +107,49 @@ nav {
 .separator {
     height: 73px;
 }
+
+.menu {
+    display: flex;
+    justify-content: center;
+}
+
+.menu-container {
+    width: 1048px;
+    display: grid;
+    grid-auto-flow: row;
+    gap: 24px;
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-columns: repeat(auto-fill, minmax(244px, 1fr));
+}
+
+.card {
+    width: 244px;
+    color: #F8F8F8;
+    font-weight: bold;
+    font-size: 24px;
+    
+}
+
+.card p {
+    margin: 0
+}
+
+.card-info p:nth-of-type(2) {
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.card-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.photo {
+    margin-bottom: 8px;
+    max-width: 250px;
+    /* border: 1px solid white; */
+}
+
+
+

@@ -1,11 +1,8 @@
 import "./styles.css";
+import home from './views/home.js'
 
-const home = (() => {
-    // const home = document.querySelector(".home")
-    const homeButton = document.querySelector(".nav-home")
 
-    
-})()
 
+// home.renderHome()
 
 
