@@ -1,5 +1,11 @@
 import "./styles.css";
 
+const home = (() => {
+    // const home = document.querySelector(".home")
+    const homeButton = document.querySelector(".nav-home")
 
-console.log("I just want to say hello!");
+    
+})()
+
+
 
